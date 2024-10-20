@@ -14,13 +14,13 @@
 
 
 <!-- why us  component-->
-<x-why-us/>
+<x-why_us/>
 
 <!-- gallery component-->
 <x-gallery/>
 
 <!-- Visit us section component-->
-<x-visit-us/>
+<x-visit_us/>
 
 <!-- footer component-->
 <x-footer/>
