@@ -10,7 +10,7 @@ class RegisterController extends Controller
     //
     function register(Request $req){
         // print_r($req->fullName);
-        $result=DB::table('user')->insert([
+        $result=DB::table('users')->insert([
             "name"=>$req->fullName,
             "email"=>$req->email,
             "phone"=>$req->phone,
